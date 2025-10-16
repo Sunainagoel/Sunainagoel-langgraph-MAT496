@@ -34,3 +34,13 @@ In this notebook, I learned how to build on simple LangGraph structures by combi
 
 **Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-1/chain.ipynb
 **My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%201/chain.ipynb
+
+
+**Video 5:** Router
+
+To explore routing behavior, I created a simple tool and added it to the tools list. I then allowed the LLM to decide when to use it, based on a predefined tools condition. When asked a relevant question, the LLM triggered the tool correctly; for unrelated queries, it chose to respond directly without calling the tool. This helped me understand how the model intelligently routes between using its own reasoning and external tools based on context.
+
+**Tweaking:** I created a custom divide tool to see how adding tools affects the graph. When a division-related question was asked, it correctly triggered the new tool, confirming it worked. I also updated the .py file with the new tool, and added screenshots.
+
+**Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-1/router.ipynb
+**My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%201/router.ipynb
