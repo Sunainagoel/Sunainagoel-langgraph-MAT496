@@ -64,3 +64,7 @@ I explored how memory can be added to agents. I created a thread ID that allows 
 
 **Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-1/agent-memory.ipynb
 **My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%201/agent-memory.ipynb
+
+
+**Video 8:** Intro to Deployment (Optional)
+Since LangSmith Deployment is currently only available for LangSmith Plus users and Lesson 8 is optional, I just went through the video to understand the concept but didn’t implement anything. I learned how to move beyond local development and actually deploy a LangGraph application so it can be used as a service or API. The lesson covered how to package the graph, manage secrets and environment variables, enable persistence, and expose graph endpoints for external use.
