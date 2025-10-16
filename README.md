@@ -54,3 +54,13 @@ Built a simple agent using multiple arithmetic tools and followed the ReAct arch
 
 **Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-1/agent.ipynb
 **My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%201/agent.ipynb
+
+
+**Video 7:** Agent with Memory
+
+I explored how memory can be added to agents. I created a thread ID that allows the agent to reference previous interactions, enabling follow-up questions to be answered in context. This helped maintain continuity across multiple queries. Interestingly, LangGraph’s dev mode includes a built-in persistence layer, which automatically manages memory by integrating with the API key—making it much easier to track and recall past states without manual setup.
+
+**Tweaking:** I extended toolset and tested memory by creating a thread where the final question depended on earlier steps. The model successfully referenced previous results, showing memory retention works. I also confirmed LangGraph Studio’s built-in persistence layer handles memory automatically.
+
+**Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-1/agent-memory.ipynb
+**My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%201/agent-memory.ipynb
