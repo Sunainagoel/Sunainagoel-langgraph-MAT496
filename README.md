@@ -24,3 +24,13 @@ I explored LangGraph Studio, a visual IDE that makes it easier to build, debug, 
 **Tweaking:** Since there wasn’t a notebook provided for this video, I followed the tutorial and successfully ran LangGraph Studio on my local machine. I tested a few basic graph states to ensure everything was working correctly, and everything ran smoothly. I’ve also attached screenshots above as proof of setup and execution.
 
 **My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%201/langgraph-studio.ipynb
+
+
+**Video 4:** Chain
+
+In this notebook, I learned how to build on simple LangGraph structures by combining different concepts to form a chain. It starts with storing messages in a list to keep track of conversation flow, then introduces a basic tool that performs a single operation. Finally, by connecting the message history, tool, and an LLM, I created a complete graph that executes like a chain — showing how modular components can be combined for richer interactions.
+
+**Tweaking:** I created a new conversation on a different topic to test the flow. I also built a simple tool that adds two numbers, then integrated it into the graph with the model. I observed how sometimes the model chose to handle the question directly, while other times it triggered the tool call.
+
+**Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-1/chain.ipynb
+**My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%201/chain.ipynb
