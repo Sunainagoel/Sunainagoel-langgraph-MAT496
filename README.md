@@ -44,3 +44,13 @@ To explore routing behavior, I created a simple tool and added it to the tools l
 
 **Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-1/router.ipynb
 **My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%201/router.ipynb
+
+
+**Video 6:** Agent
+
+Built a simple agent using multiple arithmetic tools and followed the ReAct architecture, where the model thinks, acts by calling tools, and observes the results before continuing. The goal was to have the model solve a multi-step arithmetic problem, involving a sequence of tool calls. The model intelligently decided when to call which tool, and repeated the process until it arrived at the final answer, showcasing how LangGraph supports dynamic reasoning in a loop.
+
+**Tweaking:** I expanded the toolset to include five arithmetic operations: add, subtract, multiply, divide, and power. The model handled multi-step reasoning well, chaining tools as needed. I also tracked the entire process on LangSmith to observe how the execution unfolded. The screenshots are included for reference.
+
+**Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-1/agent.ipynb
+**My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%201/agent.ipynb
