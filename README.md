@@ -69,3 +69,14 @@ I explored how memory can be added to agents. I created a thread ID that allows 
 **Video 8:** Intro to Deployment (Optional)
 
 Since LangSmith Deployment is currently only available for LangSmith Plus users and Lesson 8 is optional, I just went through the video to understand the concept but didn’t implement anything. I learned how to move beyond local development and actually deploy a LangGraph application so it can be used as a service or API. The lesson covered how to package the graph, manage secrets and environment variables, enable persistence, and expose graph endpoints for external use.
+
+
+### Module 2:
+**Video 1:** State Schema
+
+In this video, I learned that a schema defines the structure and data types used in a graph. We’ve been using TypedDict for this, and also looked at dataclasses, which are similar but use the dot (.) operator to access values. The issue with both is that type hints aren’t enforced at runtime, so invalid data won’t raise errors. To address this, Pydantic comes in handy, as it not only supports type hints but also performs automatic data validation to ensure the inputs are correct.
+
+**Tweaking:** I created my own graph that checks whether a task is completed or still pending using Pydantic, and observed how it handles both valid and invalid inputs.
+
+**Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-2/state-schema.ipynb
+**My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%202/state-schema.ipynb
