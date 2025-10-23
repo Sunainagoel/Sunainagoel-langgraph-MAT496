@@ -112,7 +112,7 @@ In this video, we learned how to manage messages in long-running conversations. 
 **My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%202/trim-filter-messages.ipynb
 
 
-**Video 5:** Chatbot w/ Summarizing Messages and External Memory
+**Video 5:** Chatbot w/ Summarizing Messages and Memory
 
 In this video, I learned how to build a chatbot that automatically summarizes past messages once their count exceeds six, effectively reducing the LLM’s context size. I also explored adding memory through a checkpointer to save the graph state after each interaction, enabling the chatbot to remember conversations across sessions. This persistence makes chatbots more practical and efficient for long-term use.
 
@@ -120,3 +120,13 @@ In this video, I learned how to build a chatbot that automatically summarizes pa
 
 **Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-2/chatbot-summarization.ipynb
 **My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%202/chatbot-summarization.ipynb
+
+
+**Video 6:** Chatbot w/ Summarizing Messages and External Memory
+
+In this video, I learned that LangGraph supports both in-memory and external memory checkpoints like Postgres and SQLite. In-memory checkpoints retain conversation memory only while the notebook runs, whereas external checkpoints store conversations indefinitely in a database. We tested persistence by restarting the notebook to verify if threads were saved locally. Additionally, LangGraph Studio automatically adds a persistence layer (Postgres) when running chatbots. I also explored how the chatbot functions in LangGraph Studio and included screenshots in the notebook below.
+
+**Tweaking:** I modified my chatbot to connect its memory to a local external database using SQLite, enabling persistent conversation storage beyond the notebook session. I tested this by restarting the notebook to confirm that the conversation was saved indefinitely. I also explored the chatbot’s behavior in LangGraph Studio, where an automatic persistence layer (Postgres) is added. I tested this by restarting the conversation there as well, and attached screenshots of these tests in the notebook below.
+
+**Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-2/chatbot-external-memory.ipynb
+**My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%202/chatbot-external-memory.ipynb
