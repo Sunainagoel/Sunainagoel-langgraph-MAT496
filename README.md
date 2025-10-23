@@ -110,3 +110,13 @@ In this video, we learned how to manage messages in long-running conversations. 
 
 **Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-2/trim-filter-messages.ipynb
 **My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%202/trim-filter-messages.ipynb
+
+
+**Video 5:** Chatbot w/ Summarizing Messages and External Memory
+
+In this video, I learned how to build a chatbot that automatically summarizes past messages once their count exceeds six, effectively reducing the LLM’s context size. I also explored adding memory through a checkpointer to save the graph state after each interaction, enabling the chatbot to remember conversations across sessions. This persistence makes chatbots more practical and efficient for long-term use.
+
+**Tweaking:** I changed the example to a casual chatbot about everyday topics. It uses MemorySaver to keep conversation memory and summarizes messages once they exceed six, retaining only the last two afterward. This reduces the LLM context size, improving speed and lowering costs while maintaining the conversation flow. I also worked with conversation threads and reviewed their behavior in the Langsmith portal, with screenshots included below.
+
+**Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-2/chatbot-summarization.ipynb
+**My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%202/chatbot-summarization.ipynb
