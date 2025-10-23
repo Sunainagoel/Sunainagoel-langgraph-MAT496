@@ -90,3 +90,13 @@ In this video, we examined reducers. These are responsible for managing how stat
 
 **Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-2/state-reducers.ipynb
 **My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%202/state-reducers.ipynb
+
+
+**Video 3:** Multiple Schemas
+
+In this video, I learned that most graphs use a single schema for both input and output, but sometimes we need more control. Some internal nodes may generate data that’s only used within the graph and shouldn’t be part of the final output. To handle this, we can use private state, which stores internal information without exposing it to the user. I also learned that while StateGraph uses one main schema for communication, we can define separate input, output, and internal schemas for better organization and control.
+
+**Tweaking:** I built a graph simulating a bank account with deposits and withdrawals. I also created a graph that processes travel destinations, generates information, and outputs personalized messages using input and output schemas.
+
+**Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-2/multiple-schemas.ipynb
+**My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%202/multiple-schemas.ipynb
