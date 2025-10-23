@@ -100,3 +100,13 @@ In this video, I learned that most graphs use a single schema for both input and
 
 **Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-2/multiple-schemas.ipynb
 **My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%202/multiple-schemas.ipynb
+
+
+**Video 4:** Trim and Filter Messages
+
+In this video, we learned how to manage messages in long-running conversations. Since long message histories can increase latency and token costs when passed into the graph, it becomes inefficient and expensive. To address this, we can keep only the most recent messages and delete older ones using “RemoveMessages.” Alternatively, we can filter the messages sent to the chat model without altering the stored state, sending only a subset of messages. Another approach is trimming messages based on a token limit, which helps the model respond faster and reduces costs.
+
+**Tweaking:** I applied all three message management methods from the tutorial. First, I created a graph that trims the graph state to keep only the last three messages, deleting older ones using built-in reducer functions, and tested it with different message examples. Then, I set up a filter node that passes only the most recent two messages to the model without altering the stored message history. Lastly, I built a graph that automatically trims input messages exceeding 250 tokens before invoking the model, effectively managing token limits and improving efficiency during long conversations.
+
+**Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-2/trim-filter-messages.ipynb
+**My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%202/trim-filter-messages.ipynb
