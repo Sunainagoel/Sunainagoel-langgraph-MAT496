@@ -80,3 +80,13 @@ In this video, I learned that a schema defines the structure and data types used
 
 **Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-2/state-schema.ipynb
 **My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%202/state-schema.ipynb
+
+
+**Video 2:** State Reducers
+
+In this video, we examined reducers. These are responsible for managing how state updates occur for specific keys or channels in a schema. I learned that if two nodes try to update the same shared state simultaneously, it can lead to a value error. This is where state reducers become important. We used Annotated to handle this issue. Sometimes, we may need to create custom reducers instead of using Python’s built-in ones, particularly for special cases like null values. We also discussed message state reducers and the add_reducer method. This method allows us to add, overwrite (using IDs), or delete messages with the built-in RemoveMessage reducer.
+
+**Tweaking:** I tested the built-in message reducers provided by LangGraph using a few examples. I also created a custom reducer and built a graph where each node adds 1, 3, and 5, then ran several test cases to verify that the custom reducer was working correctly.
+
+**Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-2/state-reducers.ipynb
+**My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%202/state-reducers.ipynb
