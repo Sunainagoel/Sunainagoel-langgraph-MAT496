@@ -130,3 +130,14 @@ In this video, I learned that LangGraph supports both in-memory and external mem
 
 **Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-2/chatbot-external-memory.ipynb
 **My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%202/chatbot-external-memory.ipynb
+
+
+### Module 3:
+**Video 1:** Streaming
+
+In this notebook, I learned how to stream responses and intermediate states from a LangGraph chatbot in real time. I understood the difference between streaming updates, full graph states, and token-level outputs. This makes it easier to track progress while the model is responding. I also explored how interruptions and resumptions can be handled seamlessly, and how LangGraph Studio enables smooth message streaming through its built-in API.
+
+**Tweaking:** I changed the theme of the chatbot to a travel assistant that helps plan trips and give destination ideas. I tested streaming in different modes using travel-related prompts like planning itineraries and finding destinations. I also observed how the chatbot summarized long conversations after four messages and maintained context using memory checkpoints.
+
+**Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-3/streaming-interruption.ipynb
+**My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%203/streaming-interruption.ipynb
