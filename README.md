@@ -141,3 +141,13 @@ In this notebook, I learned how to stream responses and intermediate states from
 
 **Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-3/streaming-interruption.ipynb
 **My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%203/streaming-interruption.ipynb
+
+
+**Video 2:** Breakpoints
+
+Through this notebook, we explored how LangGraph enables human-in-the-loop AI workflows using breakpoints. We learned how to build a simple agent capable of performing arithmetic operations, pause its execution before tool use, inspect its internal state, and then either resume or stop it. This gave us insight into how breakpoints can support approval, debugging, and state editing — key concepts for creating transparent and controllable AI systems. We also saw how LangGraph manages memory checkpoints, allowing an agent to pause and resume seamlessly.
+
+**Tweaking:** We customized the notebook by adding our own tools like power, trying new prompts, and introducing a user approval step to manually control the agent’s actions — making the workflow more interactive and realistic.
+
+**Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-3/breakpoints.ipynb
+**My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%203/breakpoints.ipynb
