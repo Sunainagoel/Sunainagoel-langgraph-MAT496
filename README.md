@@ -161,3 +161,13 @@ I understood how to stop, examine, and modify the internal state of an AI agent 
 
 **Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-3/edit-state-human-feedback.ipynb
 **My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%203/edit-state-human-feedback.ipynb
+
+
+**Video 4:** Dynamic Breakpoints
+
+This notebook helped me grasp how LangGraph manages state transitions, dynamic breakpoints, and real-time interruptions in a workflow. I learned how each node executes its logic while sharing a unified state across the graph, and how interrupts can pause execution until the state is updated or approved. This showed me how LangGraph goes beyond simple automation — enabling adaptive, human-in-the-loop systems that can reason, react, and continue intelligently.
+
+**Tweaking:** I transformed the base example into a Mission Control simulation, applying key LangGraph concepts like conditional interrupts, state inspection, and state updates. Renamed the nodes to diagnostics, anomaly_check, and confirm_mission, and added triggers that respond to words like “oxygen” or “critical”.
+
+**Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-3/dynamic-breakpoints.ipynb
+**My Code:** (https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%203/dynamic-breakpoints.ipynb), (https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%203/mission_control_dynamic_breakpoints.py)
