@@ -171,3 +171,13 @@ This notebook helped me grasp how LangGraph manages state transitions, dynamic b
 
 **Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-3/dynamic-breakpoints.ipynb
 **My Code:** (https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%203/dynamic-breakpoints.ipynb), (https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%203/mission_control_dynamic_breakpoints.py)
+
+
+**Video 5:** Time Travel
+
+I learned how LangGraph supports advanced debugging and exploration of agent behavior using time travel, replaying, and forking. Each state of the graph is captured as a StateSnapshot, allowing inspection of the current state or the entire history. I learned how to replay a graph from any checkpoint without re-executing and how forking lets me modify a previous state, create a new checkpoint, and re-execute to explore alternative outcomes. Using the correct message ID ensures updates overwrite rather than append messages. LangGraph Studio also provides a visual way to experiment with forking and alternative trajectories, making it easier to debug and test agent behavior step by step.
+
+**Tweaking:** I adapted the notebook into a fuel monitoring scenario. I renamed the nodes, added interrupts for critical fuel conditions, and practiced pausing the graph, inspecting and updating state, and resuming execution. Demonstrating the concepts dynamic breakpoints, conditional interrupts, and interactive state management as well.
+
+**Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-3/time-travel.ipynb
+**My Code:** (https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%203/time-travel.ipynb), (https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%203/fuel.py)
