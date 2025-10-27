@@ -151,3 +151,13 @@ Through this notebook, we explored how LangGraph enables human-in-the-loop AI wo
 
 **Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-3/breakpoints.ipynb
 **My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%203/breakpoints.ipynb
+
+
+**Video 3:** Editing State and Human Feedback
+
+I understood how to stop, examine, and modify the internal state of an AI agent with LangGraph breakpoints. I realized how breakpoints enable us to halt the graph anywhere, look at what the agent is considering, and even alter the messages or inputs before resuming. This explained how human-in-the-loop systems can enable corrections, feedback, and transparency in AI processes. I also realized how the memory checkpoints enable the agent to stop and resume seamlessly without any loss of progress — similar to monitoring a conversation in real time.
+
+**Tweaking:** Added more tools to the tools list provided to the chat model. Changed the arithmetic expressions and operations inputted to the graph. Tested how editing the graph’s state affected the results.
+
+**Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-3/edit-state-human-feedback.ipynb
+**My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%203/edit-state-human-feedback.ipynb
