@@ -192,3 +192,13 @@ I learned about parallelization and reducers in LangGraph, focusing on how to ma
 
 **Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-4/parallelization.ipynb
 **My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%204/parallelization.ipynb
+
+
+**Video 2:** Sub-Graphs
+
+I discovered how sub-graphs enable us to deal with independent states in various areas of a graph, which comes in handy for multi-agent systems. Sub-graphs communicate with the parent graph via overlapping keys, allowing inputs such as cleaned_logs to enter several sub-graphs, and outputs such as summary or report to exit back to the parent. By specifying output state schemas, we can prevent key collisions and determine what each sub-graph publishes. Sub-graphs may also execute in parallel, and using such tools as LangSmith, they make traces more readable and structured even in large graphs.
+
+**Tweaking:** I updated the original log analysis into a Customer Feedback Analyzer, renaming sub-graphs to SentimentAnalysis and TopicSummarization. Output schemas were separated to avoid key conflicts, while still showing parallel execution and shared state through cleaned_feedback. The parent graph combines results, demonstrating multi-agent coordination.
+
+**Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-4/sub-graph.ipynb
+**My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%204/sub-graph.ipynb
