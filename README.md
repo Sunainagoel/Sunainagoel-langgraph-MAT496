@@ -181,3 +181,14 @@ I learned how LangGraph supports advanced debugging and exploration of agent beh
 
 **Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-3/time-travel.ipynb
 **My Code:** (https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%203/time-travel.ipynb), (https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%203/fuel.py)
+
+
+### Module 4:
+**Video 1:** Parallelization
+
+I learned about parallelization and reducers in LangGraph, focusing on how to manage state updates when multiple nodes run simultaneously. It explained how fan-in and fan-out workflows allow nodes like B and C to execute in parallel, and why reducers are needed to handle simultaneous writes to the same state key. I saw how reducers can not only aggregate updates (e.g., appending to a list) but also control the ordering of updates. Finally, these ideas were applied in a practical multi-agent research assistant example, where web and Wikipedia searches run in parallel, write results to a shared context, and an LLM then generates an answer—demonstrating real-world use of parallelization for efficiency and control.
+
+**Tweaking:** I updated the code to create a movie research assistant. I also renamed and refocused the nodes (search_web, search_wikipedia, and generate_answer) to gather and summarize movie-related information. The graph flow and reducer logic remain the same.
+
+**Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-4/parallelization.ipynb
+**My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%204/parallelization.ipynb
