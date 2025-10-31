@@ -212,3 +212,13 @@ I have learned how MapReduce breaks down a big task into smaller ones that can r
 
 **Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-4/map-reduce.ipynb
 **My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%204/map-reduce.ipynb
+
+
+**Video 4:** Research Assistant
+
+From this video, I learned how to build a multi-agent AI research system that mimics a real-world analyst workflow. It showed me how to create specialized AI analysts, improve their focus using human feedback, and coordinate structured interviews between analysts and an AI expert with access to outside sources. I also saw how to run research in parallel using MapReduce, automatically gather results, and combine them into a clear, high-quality report. Overall, it provided a clear picture of using human involvement, structured prompts, and automated workflows to make AI-assisted research faster, more precise, and easier to manage.
+
+**Tweaking:** We transformed the Research Assistant notebook into a Crisis Strategy exercise by structuring AI specialists with detailed personas, adding iterative director feedback, and integrating web and Wikipedia searches for richer context. The output of the simulations is now brief crisis memos, combined into pre-briefings, summaries, and final recommendations.
+
+**Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-4/research-assistant.ipynb
+**My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%204/research-assistant.ipynb
