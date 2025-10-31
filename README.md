@@ -202,3 +202,13 @@ I discovered how sub-graphs enable us to deal with independent states in various
 
 **Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-4/sub-graph.ipynb
 **My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%204/sub-graph.ipynb
+
+
+**Video 3:** Map-Reduce
+
+I have learned how MapReduce breaks down a big task into smaller ones that can run in parallel, then combines their results efficiently. I saw how, for instance, the Map phase fans out tasks like generating multiple jokes about a topic by automatically creating parallel nodes using the Send API, while the Reduce phase gathers the results to pick the best one. I also learned that structured outputs keep everything organized. Overall, this has shown me how MapReduce enables scalable, well-structured, and efficient workflows inside LangGraph.
+
+**Tweaking:** We transformed the original joke generator into a Fun Fact Generator. The map phase now creates fun facts for each subtopic, and the reduce phase selects the most interesting one. Prompts, variable names, and output fields were updated to fit the new theme while keeping the same map-reduce structure and parallelized logic.
+
+**Source Code:** https://github.com/langchain-ai/langchain-academy/blob/main/module-4/map-reduce.ipynb
+**My Code:** https://github.com/Sunainagoel/Sunainagoel-langgraph-MAT496/blob/main/module%204/map-reduce.ipynb
